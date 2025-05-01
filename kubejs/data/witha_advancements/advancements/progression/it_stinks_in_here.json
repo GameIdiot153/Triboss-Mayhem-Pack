@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:tainted_dust_block"
+        },
+        "title": {"text":"It Stinks In Here","color":"green"},
+        "description": {"text":"Enter the Wither Storm's bowels","color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/a_balance_of_power",
+    "criteria": {
+        "enter_storm": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "witherstormmod:bowels"
+            }
+        }
+    }
+}

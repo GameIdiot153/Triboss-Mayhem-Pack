@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:withered_nether_star"
+        },
+        "title": {"text":"The Giant","color":"dark_purple"},
+        "description": {"text":"Kill the Wither Storm and pick up its Star","color":"dark_purple"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/it_stinks_in_here",
+	"criteria": {
+		"withered_nether_star": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"witherstormmod:withered_nether_star"
+						]
+					}
+				]
+			}
+		}
+	}
+}

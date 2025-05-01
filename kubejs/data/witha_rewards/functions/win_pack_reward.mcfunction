@@ -1,0 +1,4 @@
+execute run tellraw @a ["",{"text":"W","color":"dark_purple","bold":true,"obfuscated":true},{"text":"| ","color":"dark_purple","bold":true},{"text":"Congratulations, you have finished this modpack\'s progression line! I hope you had at least a tiny bit of fun playing this. If you want additional challenges, a ","color":"gold"},{"text":"new advancement tab","color":"green","underlined":true},{"text":" has been unlocked for you to grind through. And have some of these confetti poppers and a firework bundle to celebrate!","color":"gold"},{"text":" |","color":"dark_purple","bold":true},{"text":"W","color":"dark_purple","bold":true,"obfuscated":true}]
+execute run give @p supplementaries:confetti_popper 64
+execute run give @p witherstormmod:firework_bundle 1
+execute at @p run summon firework_rocket ~ ~1 ~ {LifeTime:25,FireworksItem:{id:firework_rocket,tag:{Fireworks:{Flight:1,Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;16701501],FadeColors:[I;8991416]}]}},Count:1}}

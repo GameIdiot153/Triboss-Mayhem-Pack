@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": {"text":"Don't Lose It!","color":"dark_red"},
+        "description": {"text":"Obtain the Dragon Egg!","color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/the_mother",
+	"criteria": {
+		"get_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+                    {
+					    "items": [
+                            "minecraft:dragon_egg"
+                        ]
+                    }
+                ]
+			}
+		}
+	}
+}

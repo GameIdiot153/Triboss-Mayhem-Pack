@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "title": {"text":"Forged In Fire", "color":"green"},
+        "description": {"text":"Obtain a Netherite Ingot.\nI advice you don't make weapons out of this", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/rubbish_refitting",
+    "criteria": {
+        "get_netherite_ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_ingot"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

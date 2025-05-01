@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:command_block_book"
+        },
+        "title": {"text":"Infinite Potential","color":"green"},
+        "description": {"text":"Obtain an Enchanted Command Block Book from a Withered Symbiont","color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/zombie_squared",
+    "criteria": {
+        "get_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:command_block_book"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

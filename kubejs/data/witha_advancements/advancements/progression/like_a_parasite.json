@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": {"text":"Like a Parasite", "color":"green"},
+        "description": {"text":"Summon a Tainted Pig with a Withered Beacon", "color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/a_beacon_of_hope",
+    "criteria": {
+        "summon_pig": {
+            "trigger": "witherstormmod:summon_mob_withered_beacon",
+            "conditions": {}
+        }
+    }
+}

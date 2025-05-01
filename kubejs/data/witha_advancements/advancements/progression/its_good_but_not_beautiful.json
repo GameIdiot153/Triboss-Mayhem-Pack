@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {"text":"It's Good, but not Beautiful...", "color":"green"},
+        "description": {"text":"Enchant an item.\nHave fun getting the stuff you want", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/shi_got_me_tweakin",
+    "criteria": {
+        "enchant_item": {
+            "trigger": "minecraft:enchanted_item",
+            "conditions": {}
+        }
+    }
+}

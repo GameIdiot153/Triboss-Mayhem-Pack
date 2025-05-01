@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:withered_spider_eye"
+        },
+        "title": {"text":"Phase 5", "color":"green"},
+        "description": {"text":"Use a Phasometer to look at the Wither Storm at Phase 5", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "witha_advancements:progression/look_at_p4",
+    "criteria": {
+        "phasometer_at_witherstorm": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 5}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

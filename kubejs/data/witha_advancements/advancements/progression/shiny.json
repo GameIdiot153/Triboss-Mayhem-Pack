@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": {"text":"Ohhh, Shiny!", "color":"green"},
+        "description": {"text":"Obtain a Diamond. \nI advice some good gear made out of this", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/iron_will",
+    "criteria": {
+        "get_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "title": {"text":"Now It's a GPS","color":"green"},
+        "description": {"text":"Link an Amulet to a mob","color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/impending_doom_approaches_in",
+    "criteria": {
+        "link_amulet": {
+            "trigger": "witherstormmod:link_amulet",
+            "conditions": {
+                "total_linked": {
+                    "min": 1
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:withered_symbiont_spawn_egg"
+        },
+        "title": {"text":"Need More Books","color":"green"},
+        "description": {"text":"Summon a Withered Symbiont with a Withered Beacon","color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/a_beacon_of_hope",
+    "criteria": {
+            "summoned_withered_symbiont": {
+            "trigger": "witherstormmod:summon_mob_withered_beacon",
+            "conditions": {
+                "resummoned": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "witherstormmod:withered_symbiont"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

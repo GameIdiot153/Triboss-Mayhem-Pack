@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:super_beacon"
+        },
+        "title": {"text":"With a Bit of Corruption, Please", "color":"green"},
+        "description": {"text":"Obtain a Withered Beacon. \nSee its descriptions on how to activate it", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/the_giant",
+    "criteria": {
+        "get_super_beacon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:super_beacon"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

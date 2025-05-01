@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"text":"Portable Fort", "color":"green"},
+        "description": {"text":"Obtain a shield. \nMakes life much easier", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/iron_will",
+    "criteria": {
+        "make_shield": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:shield"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

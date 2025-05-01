@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": {"text":"\"It's Tainted?\"","color":"green"},
+        "description": {"text":"Obtain an Eye of Ender","color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/a_beacon_of_hope",
+    "criteria": {
+        "make_eye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ender_eye"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

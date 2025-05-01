@@ -1,0 +1,5 @@
+{
+    "convert_from_sickness": true,
+    "from": "creeperoverhaul:ocean_creeper",
+    "to": "witherstormmod:sickened_creeper"
+  }

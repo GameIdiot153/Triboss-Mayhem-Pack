@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": {"text":"A \"Safe\" Haven: Underground Edition", "color":"green"},
+        "description": {"text":"Reach a deep cave to somewhat hide from \"it\"! \nNot quite safe from the sickness though...", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "witha_advancements:progression/iron_will",
+    "criteria": {
+        "below_depth": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "y": {
+                                        "min": -60,
+                                        "max": 0
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

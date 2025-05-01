@@ -1,0 +1,138 @@
+{
+    "display": {
+        "icon": {
+            "item": "quark:smithing_template_rune"
+        },
+        "title": {"text":"...I Imagine... a Colourful UV Map", "color":"green"},
+        "description": {"text":"Colour an enchanted item with a Runic Etching Smithing Template. \nDid you get the reference?", "color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/its_good_but_not_beautiful",
+    "criteria": {
+        "rune_white": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_white"
+            }
+        },
+        "rune_orange": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_orange"
+            }
+        },
+        "rune_magenta": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_magenta"
+            }
+        },
+        "rune_light_blue": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_light_blue"
+            }
+        },
+        "rune_yellow": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_yellow"
+            }
+        },
+        "rune_lime": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_lime"
+            }
+        },
+        "rune_pink": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_pink"
+            }
+        },
+        "rune_gray": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_gray"
+            }
+        },
+        "rune_light_gray": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_light_gray"
+            }
+        },
+        "rune_cyan": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_cyan"
+            }
+        },
+        "rune_purple": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_purple"
+            }
+        },
+        "rune_blue": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_blue"
+            }
+        },
+        "rune_brown": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_brown"
+            }
+        },
+        "rune_green": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_green"
+            }
+        },
+        "rune_red": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_red"
+            }
+        },
+        "rune_black": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_black"
+            }
+        },
+        "rune_rainbow": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "quark:tools/smithing/rune_smithing_rainbow"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "rune_white",
+            "rune_orange",
+            "rune_magenta",
+            "rune_light_blue",
+            "rune_yellow",
+            "rune_lime",
+            "rune_pink",
+            "rune_gray",
+            "rune_light_gray",
+            "rune_cyan",
+            "rune_purple",
+            "rune_blue",
+            "rune_brown",
+            "rune_green",
+            "rune_red",
+            "rune_black",
+            "rune_rainbow"
+        ]
+    ]
+}

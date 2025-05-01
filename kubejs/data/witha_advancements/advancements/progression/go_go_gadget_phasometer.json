@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:phasometer"
+        },
+        "title": {"text":"Go Go Gadget Phasometer!", "color":"green"},
+        "description": {"text":"Obtain a phasometer, a tool used to observe and analyse the Wither Storm", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/cat_and_mouse_environment",
+    "criteria": {
+        "craft_phasometer": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:phasometer"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

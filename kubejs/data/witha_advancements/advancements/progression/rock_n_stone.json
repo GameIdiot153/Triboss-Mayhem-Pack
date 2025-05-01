@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "title": {"text":"Rock n' Stone!", "color":"green"},
+        "description": {"text":"Obtain a Stone Pickaxe. \nCheap and viable", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/the_start_all_over_again",
+    "criteria": {
+        "get_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stone_pickaxe"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

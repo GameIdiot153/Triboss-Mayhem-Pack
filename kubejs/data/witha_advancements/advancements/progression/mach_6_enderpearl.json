@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": {"text":"*Throws Ender Pearl at Mach 6*","color":"green"},
+        "description": {"text":"Load an Ender Pearl into a Crossbow and fire it","color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/a_balance_of_power",
+    "criteria": {
+        "shoot_pearl": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:crossbow"
+                    ],
+                    "nbt": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:ender_pearl\",Count:1b}]}"
+                }
+            }
+        }
+    }
+}

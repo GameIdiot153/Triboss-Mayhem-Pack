@@ -1,0 +1,1 @@
+scoreboard objectives add place_command_block trigger

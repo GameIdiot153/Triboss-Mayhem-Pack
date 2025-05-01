@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:tainted_jack_o_lantern"
+        },
+        "title": {"text":"Nice Try!", "color":"dark_purple"},
+        "description": {"text":"Kill the Wither Storm while its command block is exposed", "color":"dark_purple"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:extras/root",
+    "criteria": {
+        "nearly_kill_wither_storm": {
+          "trigger": "witherstormmod:nearly_kill_wither_storm",
+          "conditions": {}
+        }
+      }
+}

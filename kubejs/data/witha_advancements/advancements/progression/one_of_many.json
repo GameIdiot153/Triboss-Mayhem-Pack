@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": {"text":"One of Many", "color":"dark_purple"},
+        "description": {"text":"Summon a Wither. \nThis one's not as powerful, trust", "color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent":"witha_advancements:progression/a_safe_haven",
+    "criteria": {
+        "spawn_wither": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wither"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

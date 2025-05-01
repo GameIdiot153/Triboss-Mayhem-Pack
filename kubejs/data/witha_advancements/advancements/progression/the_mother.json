@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {"text":"The Mother","color":"dark_purple"},
+        "description": {"text":"Kill the Ender Dragon, make sure you don't lose the egg!","color":"dark_purple"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/the_finale",
+	"criteria": {
+		"dragon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	}
+}

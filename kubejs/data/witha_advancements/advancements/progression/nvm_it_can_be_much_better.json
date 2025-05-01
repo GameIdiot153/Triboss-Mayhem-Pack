@@ -1,0 +1,30 @@
+{
+    "parent": "witha_advancements:progression/its_good_but_not_beautiful",
+    "criteria": {
+      "overlevel_enchant": {
+        "trigger": "quark:overlevel"
+      }
+    },
+    "display": {
+      "announce_to_chat": true,
+      "description": {"text":"Overlevel a tool using an Ancient Tome. \nThis is what it means to go even further beyond", "color":"green"},
+      "frame": "goal",
+      "icon": {
+        "item": "quark:ancient_tome"
+      },
+      "show_toast": true,
+      "title": {"text":"...Nvm, It can be even Better", "color":"green"}
+    },
+    "requirements": [
+      [
+        "overlevel_enchant"
+      ]
+    ],
+    "conditions": [
+      {
+        "type": "quark:advancement_flag",
+        "flag": "ancient_tomes"
+      }
+    ]
+  
+  }

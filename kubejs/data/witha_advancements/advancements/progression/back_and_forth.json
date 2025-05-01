@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"text":"Back and Forth","color":"green"},
+        "description": {"text":"Use the Nether to travel 5 thousand blocks in the Overworld","color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/a_safe_haven",
+	"criteria": {
+		"travel": {
+			"trigger": "minecraft:nether_travel",
+			"conditions": {
+				"distance": {
+					"horizontal": {
+						"min": 5000
+					}
+				}
+			}
+		}
+	}
+}

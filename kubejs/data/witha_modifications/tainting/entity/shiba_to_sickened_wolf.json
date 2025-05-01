@@ -1,0 +1,5 @@
+{
+    "convert_from_sickness": true,
+    "from": "quark:shiba",
+    "to": "witherstormmod:sickened_wolf"
+  }

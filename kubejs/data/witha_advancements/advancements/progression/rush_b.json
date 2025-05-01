@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:super_tnt"
+        },
+        "title": {"text":"RUSH B!","color":"green"},
+        "description": {"text":"Obtain a Super TNT.\nx10 TNT anybody?","color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/infinite_potential",
+    "criteria": {
+        "get_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:super_tnt"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

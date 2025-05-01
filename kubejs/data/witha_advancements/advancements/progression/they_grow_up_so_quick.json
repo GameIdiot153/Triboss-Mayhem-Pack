@@ -1,0 +1,215 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:withered_spider_eye"
+        },
+        "title": {"text":"They Grow Up so Quickly!", "color":"dark_purple"},
+        "description": {"text":"Observe all of the Wither Storm's phases", "color":"dark_purple"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "witha_advancements:progression/look_at_p7",
+    "criteria": {
+        "p0": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 0}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "p1": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 1}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "p2": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 2}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "p3": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 3}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "p4": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 4}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "p5": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 5}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "p6": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 6}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "p7": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm",
+                                    "nbt": "{Phase: 7}"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:tainted_zombie_sitting"
+        },
+        "title": {"text":"Taint Slayer","color":"dark_purple"},
+        "description": {"text":"Kill all types of sickened mobs","color":"dark_purple"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:extras/root",
+	"criteria": {
+		"bee": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_bee"
+				}
+			}
+		},
+		"cat": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_cat"
+				}
+			}
+		},
+		"chicken": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_chicken"
+				}
+			}
+		},
+		"cow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_cow"
+				}
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_creeper"
+				}
+			}
+		},
+		"iron_golem": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_iron_golem"
+				}
+			}
+		},
+		"mooshroom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_mushroom_cow"
+				}
+			}
+		},
+		"parrot": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_parrot"
+				}
+			}
+		},
+		"phantom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_phantom"
+				}
+			}
+		},
+		"pig": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_pig"
+				}
+			}
+		},
+		"pillager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_pillager"
+				}
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_skeleton"
+				}
+			}
+		},
+		"snow_golem": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_snow_golem"
+				}
+			}
+		},
+		"spider": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_spider"
+				}
+			}
+		},
+		"villager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_villager"
+				}
+			}
+		},
+		"vindicator": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_vindicator"
+				}
+			}
+		},
+		"wolf": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_wolf"
+				}
+			}
+		},
+		"zombie": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "witherstormmod:sickened_zombie"
+				}
+			}
+		}
+	}
+}

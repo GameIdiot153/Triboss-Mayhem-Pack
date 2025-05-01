@@ -1,0 +1,71 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "title": {"text":"Cover Me in Iron", "color":"green"},
+        "description": {"text":"Obtain a piece of Iron Armour.\nIt's better than nothing", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/iron_will",
+    "criteria": {
+        "iron_boots": {
+            "trigger": "minecraft:inventory_changed",            
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                           "minecraft:iron_boots"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_chestplate": {
+            "trigger": "minecraft:inventory_changed",            
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_leggings"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "iron_boots",
+            "iron_chestplate",
+            "iron_helmet",
+            "iron_leggings"
+        ]
+    ]
+}

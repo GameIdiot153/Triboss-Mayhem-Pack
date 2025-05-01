@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:phasometer"
+        },
+        "title": {"text":"Kowalski, Analysis!", "color":"green"},
+        "description": {"text":"Look at the Wither Storm through a Phasometer", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "witha_advancements:progression/go_go_gadget_phasometer",
+    "criteria": {
+        "phasometer_at_witherstorm": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "witherstormmod:phasometer"
+                    ]
+                },
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "witherstormmod:wither_storm"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

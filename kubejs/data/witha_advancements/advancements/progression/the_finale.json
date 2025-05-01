@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "title": {"text":"The Finale", "color":"green"},
+        "frame": "goal",
+        "description": {"text":"Enter the End and prepare to fight the Ender Dragon"},
+        "show_toast":true,
+        "announce_to_chat":true
+    },
+    "parent": "witha_advancements:progression/amateur_archeologist",
+    "criteria": {
+        "into_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_end"
+            }
+        }
+    }
+}

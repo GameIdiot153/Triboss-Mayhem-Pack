@@ -1,0 +1,339 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:formidi_blade"
+        },
+        "title": {"text":"God-Killer Arsenal +","color":"dark_purple"},
+        "frame": "challenge",
+        "description": {"text":"Obtain all Command Block Tools and both Wither Storm Weapons", "color":"dark_purple"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:extras/god-killer_arsenal",
+	"criteria": {
+		"wooden_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"witherstormmod:wooden_command_block_sword"
+						]
+					}
+				]
+			}
+		},
+        "wooden_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:wooden_command_block_pickaxe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:wooden_command_block_axe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:wooden_command_block_shovel"
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:wooden_command_block_hoe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "stone_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:stone_command_block_sword"
+                        ]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:stone_command_block_pickaxe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "stone_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:stone_command_block_pickaxe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "stone_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:stone_command_block_shovel"
+                        ]
+                    }
+                ]
+            }
+        },
+        "stone_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:stone_command_block_hoe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:iron_command_block_sword"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:iron_command_block_pickaxe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:iron_command_block_axe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:iron_command_block_shovel"
+                        ]
+                    }
+                ]
+            }
+        },
+        "iron_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:iron_command_block_hoe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "gold_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:gold_command_block_sword"
+                        ]
+                    }
+                ]
+            }
+        },
+        "gold_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:gold_command_block_pickaxe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "gold_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:gold_command_block_axe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "gold_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:gold_command_block_shovel"
+                        ]
+                    }
+                ]
+            }
+        },
+        "gold_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:gold_command_block_hoe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "diamond_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:command_block_sword"
+                        ]
+                    }
+                ]
+            }
+        },
+        "diamond_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:command_block_pickaxe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "diamond_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:command_block_axe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "diamond_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:command_block_shovel"
+                        ]
+                    }
+                ]
+            }
+        },
+        "diamond_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:command_block_hoe"
+                        ]
+                    }
+                ]
+            }
+        },
+        "formidi_blade": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:formidi_blade"
+                        ]
+                    }
+                ]
+            }
+        },
+        "eye_of_storm":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:eye_of_the_storm"
+                        ]
+                    }
+                ]
+            }
+        }
+	}
+}

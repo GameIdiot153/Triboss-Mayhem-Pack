@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "title": {"text":"Actually Much Weaker IRL", "color":"green"},
+        "description": {"text":"Obtain an obsidian block. \nCan be pretty powerful in-game", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/portable_trash_bin",
+    "criteria": {
+        "get_obisidan": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:obsidian"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

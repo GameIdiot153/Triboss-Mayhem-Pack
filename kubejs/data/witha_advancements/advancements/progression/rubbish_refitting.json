@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ancient_debris"
+        },
+        "title": {"text":"Rubbish Refitting", "color":"green"},
+        "description": {"text":"Obtain Ancient Debris.\nFinally not a stray lava block", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/a_safe_haven",
+    "criteria": {
+        "get_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ancient_debris"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "witherstormmod:amulet"
+		},
+		"title": {"translate":"Off to the Farlands", "color":"dark_purple"},
+		"description": {"text":"Use the Nether to travel 1 million blocks in the Overworld", "color":"dark_purple"},
+        "frame": "challenge",
+        "show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "witha_advancements:extras/root",	
+	"criteria": {
+		"nether_odyssey": {
+			"trigger": "minecraft:nether_travel",
+			"conditions": {
+				"distance": {
+					"horizontal": {
+						"min": 1000000
+					}
+				}
+			}
+		}
+	}
+}

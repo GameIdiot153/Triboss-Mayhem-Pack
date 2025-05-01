@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {"text":"Shi- got Me Tweakin'", "color":"green"},
+        "description": {"text":"Obtain an Enchanting Table. \nRequires lots of luck", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/actually_much_weaker_irl",
+    "criteria": {
+        "make_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:enchanting_table"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

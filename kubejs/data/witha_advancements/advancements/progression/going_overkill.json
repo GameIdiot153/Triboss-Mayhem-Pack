@@ -1,0 +1,63 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "title": {"text":"Going Overkill", "color":"dark_purple"},
+        "description": {"text":"Obtain all pieces of Netherite Armour.\nFor you extra world domination side-quests", "color":"dark_purple"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/forged_in_fire",
+    "criteria": {
+        "netherite_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_boots"
+                        ]
+                    }
+                ]
+            }
+        },
+        "netherite_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                          "minecraft:netherite_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "netherite_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                         "minecraft:netherite_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "netherite_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_leggings"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

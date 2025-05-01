@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:command_block_book"
+        },
+        "title": {"text":"Beyond Infinite Potential in a Barrel","color":"dark_purple"},
+        "frame": "challenge",
+        "description": {"text":"Fill an entire barrel with Enchanted Command Block Books and stand on it, proudly", "color":"dark_purple"},
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:extras/root",
+    "criteria": {
+        "obtain_books": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+                                        "barrel"
+									],
+									"nbt": "{Items:[{Slot:0b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:1b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:2b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:3b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:4b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:5b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:6b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:7b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:8b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:9b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:10b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:11b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:12b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:13b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:14b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:15b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:16b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:17b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:18b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:19b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:20b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:21b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:22b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:23b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:24b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:25b,id:\"witherstormmod:command_block_book\",Count:1b},{Slot:26b,id:\"witherstormmod:command_block_book\",Count:1b}]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+    }
+}

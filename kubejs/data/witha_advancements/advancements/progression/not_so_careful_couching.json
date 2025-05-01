@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {"text":"Not-So-Careful Couching","color":"green"},
+        "description": {"text":"Repeatedly damage one of the Wither Storm's heads to deactivate its tractor beam and escape from its grasp","color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/cat_and_mouse_environment",
+    "criteria": {
+        "deactivate_head": {
+            "trigger": "witherstormmod:escape_wither_storm",
+            "conditions": {}
+        }
+    }
+}

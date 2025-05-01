@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:golden_apple_stew"
+        },
+        "title": {"text":"Licensed Clinician", "color":"green"},
+        "description": {"text":"Cure a wither sickened mob with a Golden Apple Stew", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/cat_and_mouse_environment",
+    "criteria": {
+        "cure_mob": {
+          "trigger": "witherstormmod:cured_sickened_mob",
+          "conditions": {}
+        }
+    }
+}

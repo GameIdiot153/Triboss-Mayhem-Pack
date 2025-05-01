@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:super_support_beacon"
+        },
+        "title": {"text":"A Beacon of Hope","color":"green"},
+        "description": {"text":"Activate a fully supported Withered Beacon","color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/with_a_bit_of_corruption_please",
+    "criteria": {
+        "activate_super_beacon": {
+            "trigger": "witherstormmod:activate_super_beacon",
+                "conditions": {
+                    "total_activated": {
+                    "min": 4
+                    }
+                }
+            }
+      }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: {Id: [I;-794648747,877677183,-1143981770,-1145210794], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTczODc5ODgxMTMyMSwKICAicHJvZmlsZUlkIiA6ICJkMGEyOWY1NTM0NTA0YTdmYmJkMDM5MzZiYmJkNzg1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYW1lSWRpb3QiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkOGQ2YjRiZjBjYjY4YTk5MDVkMmY2ZjNmZWRjYzM3MmM2MzEzYTA2MzgzMDVkZTA3NjdhOGY2MGRhNjk4MyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0=\"}]}, Name: \"GameIdiot\"}}"
+        },
+        "title": {"text":"Extra Advancements","color":"gold"},
+        "description": {"text":"Special advancements for this modpack, offering bonus challenges."},
+        "background": "minecraft:textures/block/raw_gold_block.png",
+        "announce_to_chat": false
+    },
+	"criteria": {
+		"win_pack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"kubejs:triboss_trophy"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": {"text":"A \"Safe\" Haven", "color":"green"},
+        "frame": "task",
+        "description": {"text":"Enter the Nether"},
+        "show_toast":true,
+        "announce_to_chat":true
+    },
+    "parent": "witha_advancements:progression/actually_much_weaker_irl",
+    "criteria": {
+        "into_nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:the_nether"
+            }
+        }
+    }
+}

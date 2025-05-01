@@ -1,0 +1,63 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {"text":"Hardness Over All", "color":"green"},
+        "description": {"text":"Obtain all pieces of Diamond Armour, your second best friend. \nDon't ask me what your first best friend is", "color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/shiny",
+    "criteria": {
+        "diamond_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_boots"
+                        ]
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                          "minecraft:diamond_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "diamond_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                         "minecraft:diamond_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "diamond_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_leggings"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

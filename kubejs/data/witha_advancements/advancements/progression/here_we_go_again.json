@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:tainted_glass"
+        },
+        "title": {"text":"Here We Go Again","color":"dark_red"},
+        "description": {"text":"Resummon the Wither Storm with a Withered Beacon","color":"red"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/a_beacon_of_hope",
+    "criteria": {
+            "resummon_wither_storm": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "witherstormmod:wither_storm",
+                            "nbt": "{Resummoned:1b}"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

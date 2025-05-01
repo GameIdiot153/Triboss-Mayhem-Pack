@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": {"text":"The Giant...","color":"dark_purple"},
+        "description": {"text":"Blow up the Wither Storm, exposing its Command Block once again","color":"dark_purple"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/baby_vs_hydrogen_bomb",
+    "criteria": {
+        "blow_up": {
+            "trigger": "witherstormmod:wither_storm_play_dead",
+            "conditions": {}
+        }
+    }
+}

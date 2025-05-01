@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:amulet"
+        },
+        "title": {"text":"Impending Doom Approaches in *Insert Time*","color":"green"},
+        "description": {"text":"Obtain an Amulet to see the distance between you and the Wither Storm","color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/cat_and_mouse_environment",
+	"criteria": {
+		"amulet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"witherstormmod:amulet"
+						]
+					}
+				]
+			}
+		}
+	}
+}

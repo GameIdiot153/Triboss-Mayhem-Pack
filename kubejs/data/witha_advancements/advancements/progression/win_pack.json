@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:triboss_trophy"
+        },
+        "title": {"text":"The End, for Real This Time","color":"gold","bold":true},
+        "frame": "challenge",
+        "description": {"text":"Craft the Triboss Trophy and officially win this pack, congratulations!", "color":"dark_purple","bold":false},
+        "show_toast": true,
+        "hidden": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/dont_lose_it",
+	"criteria": {
+		"triboss_trophy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"kubejs:triboss_trophy"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "witha_rewards:win_pack_reward"
+	}
+}

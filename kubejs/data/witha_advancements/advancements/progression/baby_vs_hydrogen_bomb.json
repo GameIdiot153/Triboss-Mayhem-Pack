@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:formidibomb"
+        },
+        "title": {"text":"Baby Vs. Hydrogen Bomb","color":"green"},
+        "description": {"text":"Obtain a Formidibomb, basically a compressed nuke. \n§4CAUTION: It might detonate in your inventory!","color":"green"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/rush_b",
+    "criteria": {
+        "get_bomb": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "witherstormmod:formidibomb"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

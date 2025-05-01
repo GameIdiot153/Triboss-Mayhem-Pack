@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:withered_flesh"
+        },
+        "title": {"text":"Zombie²","color":"green"},
+        "description": {"text":"Encounter a Withered Symbiont, a tainted creature that appears at the end of Stage 5","color":"green"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "witha_advancements:progression/cat_and_mouse_environment",
+    "criteria": {
+        "summoned_withered_symbiont": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                        "type": "witherstormmod:withered_symbiont"
+                        }
+                    }
+                ]
+            }
+        }
+      }
+}

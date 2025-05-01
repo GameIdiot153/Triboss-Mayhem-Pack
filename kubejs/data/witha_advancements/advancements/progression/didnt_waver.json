@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "witherstormmod:hardened_flesh_block"
+        },
+        "title": {"text":"...didn't waver!","color":"dark_red"},
+        "description": {"text":"See the Wither Storm rise again","color":"red"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "witha_advancements:progression/the_giant_pre",
+    "criteria": {
+        "revival": {
+            "trigger": "witherstormmod:wither_storm_revival",
+            "conditions": {}
+        }
+    }
+}
