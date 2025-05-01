@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:filled_map"
         },
-        "title": {"text":"Amateur Archeologist", "color":"green"},
+        "title": {"text":"Amateur Archaeologist", "color":"green"},
         "description": {"text":"Locate a Stronghold", "color":"green"},
         "frame": "task",
         "show_toast": true,
